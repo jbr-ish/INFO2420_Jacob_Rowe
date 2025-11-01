@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>JavaScript Practice 1- Slideshow</title>
+
+<style type="text/css">
+
+.flashclass{ /*sample CSS class added to image slideshow container*/
+	height: 225px;
+	width: 150px; /*a width should be defined for transition to work*/
+	border: 5px solid orange;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.flashclass img{
+	border-width: 0;
+}
+
+</style>
+
+<script type="text/javascript" src="transitionshow.js">
+
+/***********************************************
+* Random Transitions Slideshow- by JavaScript Kit (www.javascriptkit.com)
+* This notice must stay intact for usage
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+***********************************************/
+
+</script>
+
+</head>
+
+<body >
+
+<script type="text/javascript">
+
+var flashyshow=new flashyslideshow({ //create instance of slideshow
+	wrapperid: "myslideshow", //unique ID for this slideshow
+	wrapperclass: "flashclass", //desired CSS class for this slideshow
+	imagearray: [
+		["Images/thumbnails/StorkSm.jpg", "", "", "Oh look, a stork."],
+		["Images/thumbnails/SaladSm.jpg", "", "", "I've never felt so happy about a salad."],
+		["Images/thumbnails/PigSm.jpg", "", "", "What if we had horse-sized pigs so an adult could do this?"],
+		["Images/thumbnails/HamsterSm.jpg", "", "", "Oh hamster, my love, let us run away together!"]
+	],
+	pause: 2000, //pause between content change (millisec)
+	transduration: 1000 //duration of transition (affects only IE users)
+})
+
+</script>
+		
+	
+	</body>
+
+</html>
