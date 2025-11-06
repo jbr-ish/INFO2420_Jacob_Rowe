@@ -40,24 +40,24 @@
 	logo1 = new Image
 	logo2 = new Image
 	if (document.images) {
-		PrintButton1.src = "images/print5.gif"
-		PrintButton2.src = "images/print6.gif"
-		logo1.src = "images/logo1.jpg"
-		logo2.src = "images/logo2.jpg"
+		PrintButton1.src = "../../Img_and_Res/Native_Cooking/Print1.png"
+		PrintButton2.src = "../../Img_and_Res/Native_Cooking/Print2.png"
+		logo1.src = "../../Img_and_Res/Native_Cooking/NativeCookingLogo1.png"
+		logo2.src = "../../Img_and_Res/Native_Cooking/NativeCookingLogo2.png"
 	}
 	var imgArray = new Array(
-		'Image1Lg.jpg',
-		'Image2Lg.jpg',
-		'Image3Lg.jpg',
-		'Image4Lg.jpg'
+		'GreenJello3Lg.jpg',
+		'ChefLg.jpg',
+		'SaladLg.jpg',
+		'IceCreamLg.jpg'
 	);
 	var titleArray = new Array(
-		'Dog Performing a Trick',
-		'Two Dogs',
-		'Dog and Two Boys Portrait',
-		'Woman and Dog'	
+		'Green Jello',
+		'Culinary Touch',
+		'Salad Lover',
+		'I Scream for Ice Cream'	
 	);	
-	var imgPath = "Images/Fullsize/";
+	var imgPath = "../../Img_and_Res/Native_Cooking/Large/";
 	function swapImage(imgID) {
 		var theImage = document.getElementById('theImage');
 		var textDiv = document.getElementById('bottomText');
@@ -79,20 +79,17 @@
 
 <body onload="preloadImages()">
 
-<div text-align="center">
+<div align="Center">
 
 	<div>
-		<a href="" onMouseOver="document.PrintButton.src=PrintButton2.src;"
-		onMouseOut="document.PrintButton.src=PrintButton1.src;">
-
-		<img src="images/print5.gif" width="250" height="50" 
-		name="PrintButton" alt="PrintButton" style="border:none;"/>
+		<a href="" onMouseOver="document.PrintButton.src=PrintButton2.src;" onMouseOut="document.PrintButton.src=PrintButton1.src;">
+		<img src="../../Img_and_Res/Native_Cooking/Print1.png" width="250" height="50" name="PrintButton" alt="PrintButton" style="border:none;"/>
 		</a>
 	</div>
 
 	<div id="logo">
-		<a href="logo.html" onMouseOver="document.logo.src=logo2.src;" onMouseOut="document.logo.src=logo1.src;">
-			<img src="images/logo1.jpg" width="133" height="126" name="logo" alt="logo" style="border:none;"/>
+		<a href="" onMouseOver="document.logo.src=logo2.src;" onMouseOut="document.logo.src=logo1.src;">
+			<img src="../../Img_and_Res/Native_Cooking/NativeCookingLogo1.png" width="133" height="126" name="logo" alt="logo" style="border:none;"/>
 		</a>
 	</div>
 
@@ -102,18 +99,18 @@
 	<br />
 
 	<div id="thumbs">
-		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Dog doing Trick" onmouseover="swapImage(0);" />
-		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Two hunting Dogs" onmouseover="swapImage(1);" />
-		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Dog and two kids" onmouseover="swapImage(2);" />
-		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Woman and Dog" onmouseover="swapImage(3);" />	
+		<img src="../../Img_and_Res/Native_Cooking/Tributes/GreenJello3Sm.jpg" alt="Green Jello" onmouseover="swapImage(0);" width="167px" height="250px" />
+		<img src="../../Img_and_Res/Native_Cooking/AboutUs/Chef5Small.jpg" alt="Culinary Touch" onmouseover="swapImage(1);" width="167px" height="250px" />
+		<img src="../../Img_and_Res/Native_Cooking/AboutUs/EatingSmall.jpg" alt="Salad Lover" onmouseover="swapImage(2);" width="167px" height="250px" />
+		<img src="../../Img_and_Res/Native_Cooking/AboutUs/IceCreamSm.jpg" alt="I Scream for Ice Cream" onmouseover="swapImage(3);" width="167px" height="250px" />	
 	</div>
 
 	<div id="image">
-		<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Dog doing trick" />
-		<h3 id="bottomText">Newlyweds Sailing</h3>
+		<img id="theImage" src="../../Img_and_Res/Native_Cooking/Large/GreenJello3Lg.jpg" alt="Green Jello" />
+		<h3 id="bottomText">Green Jello</h3>
 	</div>
 
-	<img src="images/2colback.jpg">
+	<img src="../../Img_and_Res/Native_Cooking/tiledbg.png">
 
 	<br />
 	<br />
