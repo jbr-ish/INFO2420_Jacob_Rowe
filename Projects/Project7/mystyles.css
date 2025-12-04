@@ -1,95 +1,140 @@
 @font-face {
-        font-family: 'Herba';
-        src: url(../../Fonts/h-herba-font/Herba-Wy6w9.otf) format('opentype');
-    }
-    body{
-        background-color: #FFFBAF;
-        color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 100%;
-        width: 900px;
-    }
-    img{
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    header{
-        width: 900px;
-        background-color: #0F7F6C;
-        border: dashed #C95317;
-        padding: 10px;
-    }
-    h1{
-        font-family: 'Herba';
-        font-size: 300%;
-        font-weight: lighter;
-        color:#0F7F6C;
-    }
-    h3{
-        font-size: 110%;
-        color: #C95317;
-        text-align: center;
-    }
-    blockquote{
-        font-style: italic;
-        font-weight: lighter;
-        text-align: center;
-    }
-    .imgleft{
-		float: left;
-		padding-right: 1%;
-        padding-bottom: 1%;
-        padding-top: 1%;	
-	}
-	.imgright{
-		float: right;
-		padding-left: 1%;
-        padding-bottom: 1%;
-        padding-top: 1%;
-	}
-    .imgspacedleft{
-        float: left;
-        padding-right: 4%;
-        padding-bottom: 4%;
-        padding-top: 4%;
-        padding-left: 4%;
-    }
-    .imgspacedright{
-        float: right;
-        padding-left: 4%;
-        padding-bottom: 4%;
-        padding-top: 4%;
-        padding-right: 4%;
-    }
-    a:link{
-        color: #EC773B;
-    }
-    a:visited{
-        color: #FF9660;
-    }
-    a:hover{
-        color: #FFAD84;
-    }
-    table{
-        border: none;
-        width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    th{
-        background-color: #EC773B;
-        text-align: center;
-        font-size: larger;
-    }
-    td{
-        background-color: #66C5B5;
-        border: 2px solid black;
-        text-align: center;
-        font-size: large;
-    }
-    caption{
-        text-align: center;
-        font-family: 'Herba';
-        font-size: xx-large;
-        border-radius: 2%;
-    }
+    font-family: 'Herba';
+    src: url(../../Fonts/h-herba-font/Herba-Wy6w9.otf) format('opentype');
+}
+body{
+    background-color: #FFFBAF;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    width: 900px;
+}
+img{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+header{
+    width: 900px;
+    background-color: #0F7F6C;
+    border: dashed #C95317;
+    padding: 10px;
+}
+nav{
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+nav a{
+    border:3px solid #C95317;
+    background-color: #FFFBAF;
+}
+section{
+    width: 900px;
+    background-image: url('../../Img_and_Res/Native_Cooking/tiledbg.png');
+    background-image: repeat-y;
+}
+article{
+    width: 800px;
+}
+#thumbs, #image{
+    width: 500px;
+    text-align: center;
+    padding-left: 30%;
+    margin: 0 auto 0 auto;
+    color: #000;
+}
+#thumbs{
+    margin-top: 10px;
+    display: inline-block;
+}		
+#thumbs img{
+    border: solid 1px #000;
+    margin: 5px;
+}
+#image{
+    height:550px;
+}
+#tribute{
+    padding-left: 40%;
+}
+footer{
+    width: 900px;
+    background-color: #0F7F6C;
+    color:#000;
+    text-align: center;
+    font-style: italic;
+}
+h1{
+    font-family: 'Herba';
+    font-size: 300%;
+    font-weight: lighter;
+    color:#0F7F6C;
+}
+h3{
+    font-size: 110%;
+    color: #C95317;
+    text-align: center;
+}
+blockquote{
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+.imgleft{
+    float: left;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;	
+}
+.imgright{
+    float: right;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.imgspacedleft{
+    float: left;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.imgspacedright{
+    float: right;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-right: 4%;
+}
+a:link{
+    color: #EC773B;
+}
+a:visited{
+    color: #FF9660;
+}
+a:hover{
+    color: #FFAD84;
+}
+table{
+    border: none;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+th{
+    background-color: #EC773B;
+    text-align: center;
+    font-size: larger;
+}
+td{
+    background-color: #66C5B5;
+    border: 2px solid black;
+    text-align: center;
+    font-size: large;
+}
+caption{
+    text-align: center;
+    font-family: 'Herba';
+    font-size: xx-large;
+    border-radius: 2%;
+}
