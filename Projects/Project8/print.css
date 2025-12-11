@@ -1,11 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
 @font-face {
     font-family: 'Herba';
     src: url(../../Fonts/h-herba-font/Herba-Wy6w9.otf) format('opentype');
 }
 body{
-    background-color: #FFFBAF;
+    background-color: white;
     color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
     font-size: 100%;
     width: 900px;
 }
@@ -14,12 +16,13 @@ img{
     padding-right: 25px;
 }
 header{
-    width: 900px;
+    width: 100%;
     background-color: #0F7F6C;
     border: dashed #C95317;
     padding: 10px;
 }
 nav{
+	display: none;
     width: 30%;
     float: left;
     height: 100%;
@@ -29,12 +32,12 @@ nav a{
     background-color: #FFFBAF;
 }
 section{
-    width: 900px;
+    width: 100%;
     background-image: url('../../Img_and_Res/Native_Cooking/tiledbg.png');
     background-image: repeat-y;
 }
 article{
-    width: 800px;
+    width: 95%;
 }
 #thumbs, #image{
     width: 500px;
@@ -57,13 +60,8 @@ article{
 #tribute{
     padding-left: 40%;
 }
-#content{
-	padding-left: 40%;
-}
-#splash{
-	text-align: center;
-}
 footer{
+	display: none;
     width: 900px;
     background-color: #0F7F6C;
     color:#000;
